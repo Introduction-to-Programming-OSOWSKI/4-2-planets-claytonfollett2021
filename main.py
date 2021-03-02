@@ -8,8 +8,8 @@ def planets(p):
 
 
 
-    circle = ["mercury", "venus", "earth", "mars", "juipter", "saturn", "uranus", "neptune"]
-    print (planets("earth"))
+circle = ["mercury", "venus", "earth", "mars", "juipter", "saturn", "uranus", "neptune"]
+print (planets("earth"))
 
 
 
