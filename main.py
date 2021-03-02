@@ -1,14 +1,14 @@
 def planets(p):
 
-    for i in range(0,len(circle)):
-        if p ==circle[i]:
+    for i in range(0,len(planet)):
+        if p ==planet[i]:
             return i
 
-    return p + " is not a circle"
+    return p + " is not a planet"
 
 
 
-circle = ["mercury", "venus", "earth", "mars", "juipter", "saturn", "uranus", "neptune"]
+planet = ["mercury", "venus", "earth", "mars", "juipter", "saturn", "uranus", "neptune"]
 print (planets("earth"))
 
 
